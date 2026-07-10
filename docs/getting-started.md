@@ -22,7 +22,7 @@ This can be done using the steps below:
 
 Before you can use Avio's features, there are a few settings you need to setup first to allow all other features to work.
 
-## Configuring Server Channels
+# Configuring Server Channels
 
 Before you can begin creating flights, you need to configure a channel they will be sent to, along with any staff information.
 To do this, follow the steps below:
@@ -34,7 +34,7 @@ To do this, follow the steps below:
 If you wish to change these channels, simply run the command again and select a new channel.
 An alert will popup if you already have channels configured, asking if you are 100% sure you wish to change the channels.
 
-## Configuring Server Roles
+# Configuring Server Roles
 
 Avio has its own built-in permission plugin, allowing you to lock commands behind certain roles.
 To use this, you will need to assign a admin role and flight manager role.
