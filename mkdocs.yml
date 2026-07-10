@@ -27,7 +27,7 @@ nav:
       - Flight Management: features/flight-management.md
       - Booking: features/booking.md
       - Miles Programme: features/miles-programme.md
-      - Chat Settings: features/chat-settings.md
+      - Dashboard Settings: features/dashboard-settings.md
 markdown_extensions:
   - admonition
   - pymdownx.highlight
