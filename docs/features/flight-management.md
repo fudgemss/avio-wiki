@@ -38,29 +38,43 @@ your flight plan will be posted to your flights channel.
 
 
 
-### Example:
-/flight add BA249 2026-08-14
+### Editing an existing Flight
+If you wish to edit an existing flight, it is a easy process to do.
 
-Avio will automatically pull departure time, gate, and status once available.
+1. Head to the [dashboard](https://dashboard.aviobot.app) and log in with Discord
+2. Navigate to the **Flight Planner** in the sidebar
+3. Enter your channel ID and flightID then click **Edit Live Embed**
+4. Change the details you wish to edit
+5. Click **Save**, then **Publish to Discord**
 
-## Editing or Removing a Flight
+This will not create a new flight embed, but rather edit the existing one.
 
-| Command | Description |
-|---------|-------------|
-| `/flight edit` | Update an existing flight's details |
-| `/flight remove` | Remove a flight from tracking |
-| `/flight list` | Show all flights currently tracked |
+!!! note Matching Data Fields Required
+    When editing a flight, you need to make sure the channel ID is the same one
+    the flight is published in. Providing mixmatched data will result in an error.
+
+
+### Removing an existing Flight
+If you wish to remove an existing flight, it is a simple command.
+
+Run `/remove-flight [flightID]` to remove a flight.
+
+!!! alert Action CANNOT be undone
+    Removing a flight permanently deletes all data associated with the flight, including any bookings.
+    This action cannot be undone, and no data can be recovered.
+    Please only use this command if you are 100% sure you want to remove the flight.
+
+
 
 !!! tip
-    You can track flights up to 330 days in advance for most airlines.
+    You can give server members the flight manager permission which will allow them to manage flight details.
+    This is a safer way of giving someone access to the dashboard, rather than granting full permission.
+    Only give these permissions to trusted users.
 
 ## Status Notifications
 
-Avio checks flight status periodically and will notify you automatically if:
-
-- Departure gate changes
-- Flight is delayed or cancelled
-- Boarding has started
+15 minutes before a flight is due to depart, Avio will send a message and ping all users who have booked a seat on that flight, 
+alerting them that the flight is about to begin.
 
 !!! note "Notification delivery"
-    Notifications are sent to whichever channel or DM you configured in **Chat Settings**.
+    Notifications are sent to whichever channel configured in your **Server Setup**.
