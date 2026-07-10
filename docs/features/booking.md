@@ -1,32 +1,56 @@
-# Booking
+# Booking Flights
 
-Search and book flights without leaving chat.
+Included in Avio's flight management is the ability for server members to book a seat on one
+of your scheduled flights.
 
-## Searching for Flights
-/book search LHR JFK 2026-09-01
+## Booking a Flight
+There are multiple ways to book a flight.
 
-This searches for flights from London Heathrow to JFK on the given date.
-Results are shown with airline, price, and duration.
+### Server Member
+1. Run `/book-flight [flightID]` and select a seat if you wish to
+2. Seat successfully booked
 
-## Completing a Booking
+If the flight has no more seats left, you will be given an error message.
 
-1. Run a search using `/book search`
-2. Select a result using its listed reference number
-3. Confirm passenger details
-4. Complete payment via the secure link Avio provides
+### Server Admin
+If a user is having issues booking a flight, server admins can manually book them a place.
 
-!!! warning
-    Booking confirmations are time-limited. If payment isn't completed within
-    15 minutes, you'll need to search again as prices may have changed.
+1. Run `/bookings-admin force-book [user] [flightId] [seat_[pref]` and fill in the required details
+2. Run `/bookings-admin list [user]` to see what flights they are currently booked on
+3. User successfully forced booked on a flight
 
-## Managing Existing Bookings
+### Flights Site (NOT YET RELEASED)
+Avio also has a web-based booking system which allows users to have a more realistic booking experience.
+This feature is currently being developed and is not yet released.
 
-| Command | Description |
-|---------|-------------|
-| `/book list` | View your active bookings |
-| `/book cancel` | Cancel a booking (subject to airline policy) |
-| `/book receipt` | Resend a booking confirmation |
+!!! warning "Multiple Bookings"
+    Server members can only have **one** booking per flight, per account.
+    To change a booking, you will need to remove any existing bookings.
 
----
+## Removing a Booking
+If you are no longer able to attend a flight, or wish to edit your booking, 
+you can remove any existing booking made.
 
-Need help with a booking issue? See [Chat Settings](chat-settings.md) to set up a support channel.
+1. Run `/remove-booking [flightID]` and fill in the flight ID
+2. Confirm the cancellation
+3. Booking successfully removed
+
+Once a booking has been removed, it can no longer be recovered and
+will have to be remade.
+
+!!! note "View Bookins"
+    You can view all bookings you have currently made using `/bookings`.
+
+    Server admins can view all bookings for each scheduled flight on the
+    [dashboard](https://dashboard.aviobot.app) under the **Bookings** tab.
+
+
+## Status Notifications
+
+15 minutes before a flight you are booked on, Avio will ping you in a message 
+stating that boarding will beging soon.
+
+!!! note "Notification delivery"
+    Notifications are sent to whichever channel configured in your **Server Setup**.
+
+--- 
