@@ -53,6 +53,9 @@ This will not create a new flight embed, but rather edit the existing one.
     When editing a flight, you need to make sure the channel ID is the same one
     the flight is published in. Providing mixmatched data will result in an error.
 
+![Existing Flight](../images/avio-flight-existing.png){ width="600" }
+*The Flight Planner "Edit Live Embed" screen*
+
 
 ### Removing an existing Flight
 If you wish to remove an existing flight, it is a simple command.
