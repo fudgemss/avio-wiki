@@ -26,3 +26,11 @@ Miles are earned automatically for:
 | Priority support | 500 |
 
 Redeem using:
+
+/miles redeem [reward-id]
+
+## Referrals
+
+Invite others using `/miles referral`, which generates a unique code.
+Both you and the referred user receive a one-time miles bonus once they
+complete their first booking.
