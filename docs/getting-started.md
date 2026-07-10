@@ -13,7 +13,7 @@ This can be done using the steps below:
 
 !!! warning "Trusted Users Only"
         Only give the ability to add external apps to trusted users. Unauthorised use of this permission can result in
-        your server being raided, and potentionally detroyed.
+        your server being raided, and potentially destroyed.
         
         Team Avio is not liable for any accidental invite of Avio Bot to your server.
   
