@@ -1,8 +1,40 @@
-# Welcome to Avio Bot Docs
+# Welcome to the Avio Bot Documentation
 
-This is the home page of your documentation. Edit this file
-(`docs/index.md`) to change what appears here.
+Aviobot helps you track flights, book trips, earn rewards, and manage
+notifications, all from chat.
 
-## Getting Started
+[Get Started →](getting-started.md){ .md-button }
 
-Head to the [Getting Started](getting-started.md) page for setup instructions. Need help? contact our support team.
+## Features
+
+<div class="grid cards" markdown>
+
+-   **Flight Management**
+
+    Track flights, get gate/delay alerts, and manage what you're following.
+
+    [:octicons-arrow-right-24: View guide](features/flight-management.md)
+
+-   **Booking**
+
+    Search and book flights directly through chat commands.
+
+    [:octicons-arrow-right-24: View guide](features/booking.md)
+
+-   **Miles Programme**
+
+    Earn and redeem Avio Miles for flights, bookings, and referrals.
+
+    [:octicons-arrow-right-24: View guide](features/miles-programme.md)
+
+-   **Chat Settings**
+
+    Configure notifications, permissions, language, and units.
+
+    [:octicons-arrow-right-24: View guide](features/chat-settings.md)
+
+</div>
+
+---
+
+Need live system status instead? Check [status.aviobot.app](https://status.aviobot.app).
