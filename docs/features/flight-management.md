@@ -15,7 +15,16 @@ Once you are on the dashboard, navigate to the **Flight Planner** page found on 
 In this section, you can fill in the details for a new flight, or edit an existing flight.
 
 ### Filling in Details for a new Flight
+Before you can fill in the flight details, you need to load the draft flight.
+The image below shows the section you will need to initially fill in.
+![New Flight](../images/avio-flight-new.png)
 
+The ID you will enter is the one you created in step one, when creating the draft flight.
+Once you have entered the correct ID, simply click the **Load Draft** button.
+After clicking that button, you will be in the flight editor for your draft flight.
+Now all you need to do is fill in the different fields, click save, then publish to Discord!
+
+If you have done everything correctly, your flight plan will be sent to your flights channel.
 
 
 
