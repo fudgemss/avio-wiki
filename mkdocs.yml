@@ -24,6 +24,11 @@ extra_css:
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+  - Features:
+      - Flight Management: features/flight-management.md
+      - Booking: features/booking.md
+      - Miles Programme: features/miles-programme.md
+      - Chat Settings: features/chat-settings.md
 
 markdown_extensions:
   - admonition
