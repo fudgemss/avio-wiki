@@ -87,6 +87,7 @@ If you wish to fully reset all miles for your server, use the following:
     This action will wipe ALL miles from ALL users in
     your server. This action CANNOT be undone.
 
+--- 
 
 !!! tip "View your Miles"
     You can view your miles using `/miles mymiles`.
