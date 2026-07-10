@@ -62,7 +62,7 @@ If you wish to remove an existing flight, it is a simple command.
 
 Run `/remove-flight [flightID]` to remove a flight.
 
-!!! danger Action CANNOT be undone
+!!! danger "Action CANNOT be undone"
     Removing a flight permanently deletes all data associated with the flight, including any bookings.
     This action cannot be undone, and no data can be recovered.
     Please only use this command if you are 100% sure you want to remove the flight.
