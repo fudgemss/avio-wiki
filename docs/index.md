@@ -19,25 +19,25 @@ to open a ticket in **#tickets** in our [Support Server](https://aviobot.app/dis
 
     Track flights, get gate/delay alerts, and manage what you're following.
 
-    [:octicons-arrow-right-24: View guide](features/flight-management.md)
+    [> View guide](features/flight-management.md)
 
 -   **Booking**
 
     Search and book flights directly through chat commands.
 
-    [View guide](features/booking.md)
+    [> View guide](features/booking.md)
 
 -   **Miles Programme**
 
     Earn and redeem Avio Miles for flights, bookings, and referrals.
 
-    [View guide](features/miles-programme.md)
+    [> View guide](features/miles-programme.md)
 
 -   **Chat Settings**
 
     Configure notifications, permissions, language, and units.
 
-    [View guide](features/chat-settings.md)
+    [> View guide](features/chat-settings.md)
 
 </div>
 
