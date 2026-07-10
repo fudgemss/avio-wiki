@@ -4,9 +4,9 @@ Avio Bot is the ultmate solutation for managing your virtual arline operations.
 Automated, Immersive, and Built for Performance.
 
 On this documentation site, you will find all the information you need to get started with Avio Bot.
-We also have a [Frequently Asked Questions](https://aviobot.app/faq) page, where you will answers to the most commonly asked questions within the community.
+We also have a [Frequently Asked Questions](https://aviobot.app/faq) page, where you will find the answers to the most commonly asked questions within the community.
 
-As always, if you are unable to find the answer to your questions either on our FAQ page, or throughout our docs, you are more than welcome
+As always, if you are unable to find the answers to your questions either on our FAQ page, or throughout our docs, you are more than welcome
 to open a ticket in **#tickets** in our [Support Server](https://aviobot.app/discord) and we'll be more than happy to assist you.
 
 [Get Started →](getting-started.md){ .md-button }
