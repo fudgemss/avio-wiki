@@ -1,10 +1,15 @@
 # Flight Management
 
-Track, update, and manage flights directly through Avio.
+Avio's flight management features allow virtual airlines to plan flights with ease, straight from Discord and our advanced web-dashboard. 
+Easily keep your passengers alerted with upcoming flights.
 
-## Adding a Flight
+## Scheduling a Flight
 
-Use the `/flight add` command followed by your flight number and date:
+To schedule a flight, you first need to use the command `/flight-planner [flightID}`. Your flightID can be anything you'd like, for example BA471m. **Important:** You cannot have multiple flights with the same flightID.
+Once you have created a draft flight, you will need to head to our dashboard. You can access it via the link https://dashboard.aviobot.app. You will need to login to Discord to access the dashboard.
+
+### Filling in flight details on the dashboard
+To do this, you will need to be a **Trusted User** or a **Flight Manager** on the dashboard. Details on how to do this can be found in the **Dashboard Settings** page. 
 
 ### Example:
 /flight add BA249 2026-08-14
