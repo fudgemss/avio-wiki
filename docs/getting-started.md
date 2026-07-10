@@ -12,9 +12,10 @@ This can be done using the steps below:
 5. Avio has been successfully added to your server
 
 !!! warning "Trusted Users Only"
-  Only give the ability to add external apps to trusted users. Unauthorised use of this permission can result in
-  your server being raided, and potentionally detroyed.
-  Team Avio is not liable for any accidental invite of Avio Bot to your server.
+        Only give the ability to add external apps to trusted users. Unauthorised use of this permission can result in
+        your server being raided, and potentionally detroyed.
+        
+        Team Avio is not liable for any accidental invite of Avio Bot to your server.
   
 
  ## Server Settings 
@@ -47,11 +48,11 @@ If you wish to change these roles, simply run the command again and select a new
 An alert will popup if you already have roles configured, asking if you are 100% sure you wish to change the roles.
 
 !!! danger "Permission Plugin"
-  The **admin** role has access to all commands, only give this to trusted users.
-  The **flight** role only has access to flight mangement tools.
+        The **admin** role has access to all commands, only give this to trusted users.
+        The **flight** role only has access to flight mangement tools.
 
 ---
 
 !!! tip "View Configured Settings"
-  You can view your configured settings using the command [`/config`] or by visiting the [dashboard](https://dashboard.aviobot.app).
+        You can view your configured settings using the command [`/config`] or by visiting the [dashboard](https://dashboard.aviobot.app).
 
