@@ -33,11 +33,11 @@ to open a ticket in **#tickets** in our [Support Server](https://aviobot.app/dis
 
     [> View guide](features/miles-programme.md)
 
--   **Chat Settings**
+-   **Dashboard Settings**
 
-    Configure notifications, permissions, language, and units.
+    Configure different settings on the dashboard.
 
-    [> View guide](features/chat-settings.md)
+    [> View guide](features/dashboard-settings.md)
 
 </div>
 
