@@ -1,6 +1,5 @@
 site_name: Avio Bot Docs
 site_url: https://docs.aviobot.app
-
 theme:
   name: material
   palette:
@@ -18,10 +17,8 @@ theme:
     - content.code.copy
     - toc.follow
     - navigation.footer
-
 extra_css:
   - stylesheets/extra.css
-
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
@@ -30,7 +27,6 @@ nav:
       - Booking: features/booking.md
       - Miles Programme: features/miles-programme.md
       - Chat Settings: features/chat-settings.md
-
 markdown_extensions:
   - admonition
   - pymdownx.highlight
@@ -38,10 +34,8 @@ markdown_extensions:
   - tables
   - attr_list
   - md_in_html
-
-  copyright: "Copyright &copy; 2026 Avio Bot. All Rights Reserved. Not affiliated with Discord Inc."
-
-  extra:
+copyright: "Copyright &copy; 2026 Avio Bot. All Rights Reserved. Not affiliated with Discord Inc."
+extra:
   social:
     - icon: fontawesome/brands/discord
       link: https://aviobot.app/discord
