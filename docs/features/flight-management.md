@@ -62,17 +62,12 @@ If you wish to remove an existing flight, it is a simple command.
 
 Run `/remove-flight [flightID]` to remove a flight.
 
-!!! alert Action CANNOT be undone
+!!! danger Action CANNOT be undone
     Removing a flight permanently deletes all data associated with the flight, including any bookings.
     This action cannot be undone, and no data can be recovered.
     Please only use this command if you are 100% sure you want to remove the flight.
 
 
-
-!!! tip
-    You can give server members the flight manager permission which will allow them to manage flight details.
-    This is a safer way of giving someone access to the dashboard, rather than granting full permission.
-    Only give these permissions to trusted users.
 
 ## Status Notifications
 
@@ -81,3 +76,10 @@ alerting them that the flight is about to begin.
 
 !!! note "Notification delivery"
     Notifications are sent to whichever channel configured in your **Server Setup**.
+
+--- 
+
+!!! tip
+    You can give server members the flight manager permission which will allow them to manage flight details.
+    This is a safer way of giving someone access to the dashboard, rather than granting full permission.
+    Only give these permissions to trusted users.
