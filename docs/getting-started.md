@@ -50,3 +50,8 @@ An alert will popup if you already have roles configured, asking if you are 100%
   The **admin** role has access to all commands, only give this to trusted users.
   The **flight** role only has access to flight mangement tools.
 
+---
+
+!!! tip "View Configured Settings"
+  You can view your configured settings using the command [`/config`] or by visiting the [dashboard](https://dashboard.aviobot.app).
+
