@@ -37,3 +37,12 @@ markdown_extensions:
   - tables
   - attr_list
   - md_in_html
+
+  copyright: Copyright &copy; 2026 Avio Bot. All Rights Reserved
+
+  extra:
+  social:
+    - icon: https://aviobot.app/assets/img/avio.png
+      link: https://aviobot.app/discord
+    - icon: fontawesome/solid/email
+      link: mailto:hello@aviobot.app
