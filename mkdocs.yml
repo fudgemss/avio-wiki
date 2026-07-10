@@ -17,10 +17,6 @@ theme:
     - search.suggest
     - content.code.copy
     - toc.follow
-    - content.code.copy
-  - navigation.tabs
-  - navigation.top
-  - navigation.indexes
 
 extra_css:
   - stylesheets/extra.css
