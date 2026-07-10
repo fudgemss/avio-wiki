@@ -1,30 +1,40 @@
 # Flight Management
 
-Avio's flight management features allow virtual airlines to plan flights with ease, straight from Discord and our advanced web-dashboard. 
-Easily keep your passengers alerted with upcoming flights.
+Avio's flight management features allow virtual airlines to plan flights
+with ease, straight from Discord and our advanced web dashboard. Easily
+keep your passengers alerted with upcoming flights.
 
 ## Scheduling a Flight
 
-To schedule a flight, you first need to use the command `/flight-planner [flightID}`. Your flightID can be anything you'd like, for example BA471m. 
-**Important:** You cannot have multiple flights with the same flightID.
-Once you have created a draft flight, you will need to head to our dashboard. You can access it via the link https://dashboard.aviobot.app. You will need to login to Discord to access the dashboard.
+1. Run `/flight-planner [flightID]` to create a draft flight
+2. Head to the [dashboard](https://dashboard.aviobot.app) and log in with Discord
+3. Navigate to **Flight Planner** in the sidebar
+4. Enter your flight ID and click **Load Draft**
+5. Fill in the flight details
+6. Click **Save**, then **Publish to Discord**
+
+!!! warning "Unique flight IDs"
+    You cannot have multiple flights with the same flight ID. For example, `BA471m`.
 
 ### Accessing the Dashboard Flight Planner
-To do this, you will need to be a **Trusted User** or a **Flight Manager** on the dashboard. Details on how to do this can be found in the **Dashboard Settings** page. 
-Once you are on the dashboard, navigate to the **Flight Planner** page found on the sidebar.
-In this section, you can fill in the details for a new flight, or edit an existing flight.
 
-### Filling in Details for a new Flight
-Before you can fill in the flight details, you need to load the draft flight.
-The image below shows the section you will need to initially fill in.
-![New Flight](../images/avio-flight-new.png)
+!!! note "Permissions required"
+    You need to be a **Trusted User** or **Flight Manager** on the dashboard
+    to access the Flight Planner. See [Dashboard Settings](../dashboard-settings.md)
+    for details on getting these roles.
 
-The ID you will enter is the one you created in step one, when creating the draft flight.
-Once you have entered the correct ID, simply click the **Load Draft** button.
-After clicking that button, you will be in the flight editor for your draft flight.
-Now all you need to do is fill in the different fields, click save, then publish to Discord!
+### Filling in Details for a New Flight
 
-If you have done everything correctly, your flight plan will be sent to your flights channel.
+Before you can fill in the flight details, you need to load your draft flight.
+
+![New Flight](../images/avio-flight-new.png){ width="600" }
+*The Flight Planner "load draft" screen*
+
+Enter the flight ID you created earlier, then click **Load Draft**. You'll
+be taken into the flight editor, where you can fill in the remaining fields.
+
+Once everything looks right, click **Save**, then **Publish to Discord** —
+your flight plan will be posted to your flights channel.
 
 
 
