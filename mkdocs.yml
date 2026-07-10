@@ -2,6 +2,7 @@ site_name: Avio Bot Docs
 site_url: https://docs.aviobot.app
 theme:
   name: material
+  logo: images/avio-logo.png
   palette:
     scheme: slate
     primary: black
