@@ -17,6 +17,7 @@ theme:
     - search.suggest
     - content.code.copy
     - toc.follow
+    - navigation.footer
 
 extra_css:
   - stylesheets/extra.css
@@ -42,7 +43,7 @@ markdown_extensions:
 
   extra:
   social:
-    - icon: https://aviobot.app/assets/img/avio.png
+    - icon: fontawesome/brands/discord
       link: https://aviobot.app/discord
-    - icon: fontawesome/solid/email
+    - icon: fontawesome/solid/envelope
       link: mailto:hello@aviobot.app
