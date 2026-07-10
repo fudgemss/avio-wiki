@@ -5,4 +5,4 @@ This is the home page of your documentation. Edit this file
 
 ## Getting Started
 
-Head to the [Getting Started](getting-started.md) page for setup instructions.
+Head to the [Getting Started](getting-started.md) page for setup instructions. Need help? contact our support team.
