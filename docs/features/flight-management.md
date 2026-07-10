@@ -6,7 +6,7 @@ Track, update, and manage flights directly through Avio.
 
 Use the `/flight add` command followed by your flight number and date:
 
-###Example:
+### Example:
 /flight add BA249 2026-08-14
 
 Avio will automatically pull departure time, gate, and status once available.
