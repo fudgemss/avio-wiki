@@ -16,9 +16,9 @@ This can be done using the steps below:
     your server being raided, and potentially destroyed.
     
     Team Avio is not liable for any accidental invite of Avio Bot to your server.
-  
-
- ## Server Settings 
+    
+    
+## Server Settings
 
 Before you can use Avio's features, there are a few settings you need to setup first to allow all other features to work.
 
