@@ -44,10 +44,12 @@ There are numerous ways you can earn miles, but it depends on your server settin
 Flight managers can give you miles by participating in flights.
 
 To set this up, use the following:
+
 1. Run `/miles reward [amount]` and enter how many miles you wish to give
 2. This will generate a unique code server members can enter
 
 To redeem the miles, server members can do the following:
+
 1. Run `/miles redeem-reward [code]` and enter the code given by the flight manager
 2. This will add the miles to your account
 
@@ -58,6 +60,7 @@ If your server has it enabled, you can earn miles by getting correct answers in 
 chat games. (guess the, aviationwordle).
 
 To enable these settings, do the following:
+
 1. Head to the [dashboard](https://dashboard.aviobot.app) and log in with Discord
 2. Navigate to the **Miles Programme** in the sidebar
 3. Scroll down to the **Economy Settings**
@@ -69,6 +72,7 @@ To enable these settings, do the following:
 
 ## Purchasing Rewards
 To purchase rewards from the miles shop, do the following:
+
 1. Run `/miles-purchase [slot]` and enter the slot you would like to purchase
 2. If you have enough miles, you will be granted the role and have the miles deducted
 3. If you have a unsufficient balance, you will be given an error message 
