@@ -1,5 +1,7 @@
 # Welcome to the Avio Bot Documentation
 
+![Avio Text Logo](../images/avio-text-logo.webp){ width="1000" }
+
 Avio Bot is the ultmate solution for managing your virtual arline operations.
 Automated, Immersive, and Built for Performance.
 
