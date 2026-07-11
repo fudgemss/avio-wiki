@@ -13,8 +13,11 @@ within the Avio network.
     To access the dashboard, you need to have permission, which can be gained through the following:
   
     -Being the server owner
+    
     -Having the Discord Administrator Permission
+    
     -Being a trusted user
+    
     -Being a flight manager
 
     Below explains how to get the last two permissions
