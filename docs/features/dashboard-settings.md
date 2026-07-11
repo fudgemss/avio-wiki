@@ -10,14 +10,14 @@ within the Avio network.
 3. Once in, select any section from the sidebar and your ready to go
 
 !!! warning "Permission Required"
-  To access the dashboard, you need to have permission, which can be gained through the following:
+    To access the dashboard, you need to have permission, which can be gained through the following:
   
-  - Being the server owner
-  - Having the Discord Administrator Permission
-  - Being a trusted user
-  - Being a flight manager
+    -Being the server owner
+    -Having the Discord Administrator Permission
+    -Being a trusted user
+    -Being a flight manager
 
-  Below explains how to get the last two permissions
+    Below explains how to get the last two permissions
 
 ### Adding a Trusted User
 
@@ -67,7 +67,7 @@ If you wish to purge all your server data, you can do so via the dashboard.
 4. Accept the verification message
 
 !!! danger "ACTION CANNOT BE UNDONE"
-  Purging server data cannot be undone. The data cannot be recovered.
-  Please use this at your own risk.
+    Purging server data cannot be undone. The data cannot be recovered.
+    Please use this at your own risk.
 
-  Team Avio is not liable for any accidental use of this feature.
+    Team Avio is not liable for any accidental use of this feature.
