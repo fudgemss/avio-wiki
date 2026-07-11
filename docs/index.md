@@ -1,6 +1,6 @@
 # Welcome to the Avio Bot Documentation
 
-Avio Bot is the ultmate solutation for managing your virtual arline operations.
+Avio Bot is the ultmate solution for managing your virtual arline operations.
 Automated, Immersive, and Built for Performance.
 
 On this documentation site, you will find all the information you need to get started with Avio Bot.
