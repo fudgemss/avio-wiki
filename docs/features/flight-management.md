@@ -50,8 +50,8 @@ If you wish to edit an existing flight, it is a easy process to do.
 This will not create a new flight embed, but rather edit the existing one.
 
 !!! note Matching Data Fields Required
-    When editing a flight, you need to make sure the channel ID is the same one
-    the flight is published in. Providing mixmatched data will result in an error.
+    When editing a flight, make sure the flightID is the same as the flight
+    you wish to edit. Providing mix matched data will result in an error.
 
 ![Existing Flight](../images/avio-flight-new.png){ width="600" }
 *The Flight Planner "Load Plan" screen*
