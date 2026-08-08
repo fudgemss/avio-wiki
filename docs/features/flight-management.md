@@ -9,7 +9,7 @@ keep your passengers alerted with upcoming flights.
 1. Run `/flight-planner [flightID]` to create a draft flight
 2. Head to the [dashboard](https://dashboard.aviobot.app) and log in with Discord
 3. Navigate to **Flight Planner** in the sidebar
-4. Enter your flight ID and click **Load Draft**
+4. Enter your flight ID and click **Load Plan**
 5. Fill in the flight details
 6. Click **Save**, then **Publish to Discord**
 
@@ -28,7 +28,7 @@ keep your passengers alerted with upcoming flights.
 Before you can fill in the flight details, you need to load your draft flight.
 
 ![New Flight](../images/avio-flight-new.png){ width="600" }
-*The Flight Planner "load draft" screen*
+*The Flight Planner "Load Plan screen*
 
 Enter the flight ID you created earlier, then click **Load Draft**. You'll
 be taken into the flight editor, where you can fill in the remaining fields.
@@ -43,7 +43,7 @@ If you wish to edit an existing flight, it is a easy process to do.
 
 1. Head to the [dashboard](https://dashboard.aviobot.app) and log in with Discord
 2. Navigate to the **Flight Planner** in the sidebar
-3. Enter your channel ID and flightID then click **Edit Live Embed**
+3. Enter your flightID and click **Load Plan**
 4. Change the details you wish to edit
 5. Click **Save**, then **Publish to Discord**
 
@@ -53,8 +53,8 @@ This will not create a new flight embed, but rather edit the existing one.
     When editing a flight, you need to make sure the channel ID is the same one
     the flight is published in. Providing mixmatched data will result in an error.
 
-![Existing Flight](../images/avio-flight-existing.png){ width="600" }
-*The Flight Planner "Edit Live Embed" screen*
+![Existing Flight](../images/avio-flight-new.png){ width="600" }
+*The Flight Planner "Load Plan" screen*
 
 
 ### Removing an existing Flight
