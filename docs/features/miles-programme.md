@@ -12,6 +12,9 @@ exclusive rewards.
 5. Select your rewards, along with how many miles they require (you can have up to 8 rewards)
 6. Click **Save Draft**, then **Publish to Discord**
 
+The video below showcases how to do these steps in your server.
+![Team Avio - Avio Bot Tutorials | Creating a Miles Shop](https://youtu.be/RbIKkkFR-Ok?si=XNrk099oHwl2Xwxr)
+
 !!! warning "One Shop Limit"
     You can only have one shop per server. If you wish to make a new shop, you will need to
     remove any existing ones.
