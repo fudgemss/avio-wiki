@@ -45,3 +45,6 @@ to open a ticket in **#tickets** in our [Support Server](https://aviobot.app/dis
 
 ---
 
+> [!NOTE]
+> Want to contribute? Join our Discord and open a ticket.
+
