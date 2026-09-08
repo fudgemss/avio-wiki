@@ -23,12 +23,12 @@ extra_css:
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
-  - Useful Links: useful-links.md
   - Features:
       - Flight Management: features/flight-management.md
       - Booking: features/booking.md
       - Miles Programme: features/miles-programme.md
       - Dashboard Settings: features/dashboard-settings.md
+      - Useful Links: useful-links.md
 markdown_extensions:
   - admonition
   - pymdownx.highlight
