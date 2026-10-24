@@ -14,7 +14,7 @@ This will enable **ALL** chat games in your server.
 ### On the dashboard
 The dashboard is the best way to enable chat games, as you can pick which ones are enabled/disabled.
 
-1. Visit https://dashboard.aviobot.app
+1. Head to the [dashboard](https://dashboard.aviobot.app) and log in with Discord
 2. Select the **Chat Games** tab on the sidebar
 3. Enable/Disable the chat games to your liking.
 
