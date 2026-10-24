@@ -18,38 +18,20 @@ The dashboard is the best way to enable chat games, as you can pick which ones a
 2. Select the **Chat Games** tab on the sidebar
 3. Enable/Disable the chat games to your liking.
 
-### Flights Site (NOT YET RELEASED)
-Avio also has a web-based booking system which allows users to have a more realistic booking experience.
-This feature is currently being developed and is not yet released.
+### Chat Game Miles Settings
+With chat games, users can earn miles from them if the server has this setting enabled.
+To enable this setting, do the following:
 
-!!! warning "Multiple Bookings"
-    Server members can only have **one** booking per flight, per account.
-    To change a booking, you will need to remove any existing bookings.
+1. Head to the [dashboard](https://dashboard.aviobot.app) and log in with Discord
+2. Select the **Miles Programme** tab on the sidebar
+3. Scroll down to the bottom of the page until you see the **Economy Settings**
+4. Enable/Disable **Earn Miles From Chat Games**
 
-## Removing a Booking
-If you are no longer able to attend a flight, or wish to edit your booking, 
-you can remove any existing booking made.
-
-1. Run `/remove-booking [flightID]` and fill in the flight ID
-2. Confirm the cancellation
-3. Booking successfully removed
-
-Once a booking has been removed, it can no longer be recovered and
-will have to be remade.
-
-!!! note "View Bookins"
-    You can view all bookings you have currently made using `/bookings`.
-
-    Server admins can view all bookings for each scheduled flight on the
-    [dashboard](https://dashboard.aviobot.app) under the **Bookings** tab.
+To view your current chat game settings straight from Discord, use `/chatgames settings`.
 
 
-## Status Notifications
-
-15 minutes before a flight you are booked on, Avio will ping you in a message 
-stating that boarding will beging soon.
-
-!!! note "Notification delivery"
-    Notifications are sent to whichever channel configured in your **Server Setup**.
+## Viewing Chat Game Scores
+To view your personal chat game scores, run `/chatgames myscores`. 
+Server Admins and Trusted Users can view server-specific statistics for all chat games via the dashboard.
 
 --- 
