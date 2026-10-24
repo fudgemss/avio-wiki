@@ -2,21 +2,21 @@
 
 Avio Bot has a variety of different chat games users can participate in. With leaderboards to climb, and miles to earn (if enabled by the server), our chat games provide endless fun.
 
-## Booking a Flight
-There are multiple ways to book a flight.
+## Enabling Chat Games
+By default, all chat games are disabled, but they can be easily enabled. 
+There are a few ways to enable chat games.
 
-### Server Member
-1. Run `/book-flight [flightID]` and select a seat if you wish to
-2. Seat successfully booked
+### In your server
+1. Run `/chatgames enable`. 
 
-If the flight has no more seats left, you will be given an error message.
+This will enable **ALL** chat games in your server.
 
-### Server Admin
-If a user is having issues booking a flight, server admins can manually book them a place.
+### On the dashboard
+The dashboard is the best way to enable chat games, as you can pick which ones are enabled/disabled.
 
-1. Run `/bookings-admin force-book [user] [flightId] [seat_[pref]` and fill in the required details
-2. Run `/bookings-admin list [user]` to see what flights they are currently booked on
-3. User successfully forced booked on a flight
+1. Visit https://dashboard.aviobot.app
+2. Select the **Chat Games** tab on the sidebar
+3. Enable/Disable the chat games to your liking.
 
 ### Flights Site (NOT YET RELEASED)
 Avio also has a web-based booking system which allows users to have a more realistic booking experience.
